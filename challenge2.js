@@ -7,8 +7,9 @@
  * greet("Hamza") logs "Hello Hamza"
  */
 function greet(name) {
-  // Your code here
+  console.log(Hello + "name");
 }
+greet("maryam");
 
 /**
  * isOdd(n):
@@ -22,7 +23,13 @@ function greet(name) {
 function isOdd(n) {
   // Your code here
 }
-
+function (checknumber)(String[] check){
+checknumber(isOdd(7))
+checknumber(isOdd(10))
+}
+checknumber isOdd(int n){
+  return n % 2 !=0;
+}
 /**
  * oddsSmallerThan(n):
  * - receives a number n
@@ -35,7 +42,27 @@ function isOdd(n) {
 function oddsSmallerThan(n) {
   // Your code here
 }
-
+public class Main {
+  public static void main(String[] args) {
+      System.out.println(oddsSmallerThan(7));  
+      System.out.println(oddsSmallerThan(15));7
+  }
+  
+  public static int oddsSmallerThan(int n) {
+    
+      int count = 0;
+      
+      
+      for (int i = 1; i < n; i++) {
+         
+          if (i % 2 != 0) {
+              count++; 
+          }
+      }
+      
+      return count;
+  }
+}
 /**
  * squareOrDouble(n):
  * - receives a number n
@@ -46,6 +73,20 @@ function oddsSmallerThan(n) {
  * squareOrDouble(16) -> 32
  * squareOrDouble(9) -> 81
  */
+public class Main {
+  public static void main(String[] args) {
+      System.out.println(squareOrDouble(16)); 
+      System.out.println(squareOrDouble(9)); 
+  }
+  
+  public static int squareOrDouble(int n) {
+      if (n % 2 == 0) {
+          return n * 2;  
+      } else {
+          return n * n;  
+      }
+  }
+}
 function squareOrDouble(n) {
-  // Your code here
+
 }
